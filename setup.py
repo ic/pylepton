@@ -10,5 +10,5 @@ setup(name='pylepton',
       url='https://github.com/kekiefer/pylepton',
       packages = find_packages('.'),
       scripts = ["pylepton_capture", "pylepton_overlay"],
-      install_requires = ['numpy', 'cv2'],
+      install_requires = ['numpy', 'opencv-contrib-python'],
      )
